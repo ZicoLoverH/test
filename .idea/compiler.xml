@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wechat-common" />
+        <module name="wechat-dao" />
+        <module name="wechat-entity" />
+        <module name="wechat-service" />
+        <module name="wechat-webapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wechat-common" target="1.8" />
+      <module name="wechat-dao" target="1.8" />
+      <module name="wechat-entity" target="1.8" />
+      <module name="wechat-service" target="1.8" />
+      <module name="wechat-webapp" target="1.8" />
+      <module name="wechatservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
